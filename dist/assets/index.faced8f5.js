@@ -1,0 +1,1 @@
+document.querySelector("#app").innerHTML='\n  <h1>Landing Page</h1>\n  <div>\n    <a href="qualityAsurance.html">Quality Assurance</a>\n    <a href="Security.html">Security</a>\n    <a href="badExample.html">Bad Example </a>\n  </div>\n';
