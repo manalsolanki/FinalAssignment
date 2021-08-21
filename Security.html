@@ -17,10 +17,10 @@
           </p>
           <h3>Measures Involved </h3>
           <ul>
-            <li><b>X-Frame Options : </b> This type of attack generally means that the attacker can embed this website as iframe to a third party website.
-            Or onclick injection may occur. To prevent this X-Frame-Options HTTP header is included in _headers file.</li>
-            <li><b>X :XSS-Protection </b> By including this to header, it prevents the site if the page is being attacked.
-            </li>
+            <li><b>X-Frame Options : </b> <p>This type of attack generally means that the attacker can embed this website as iframe to a third party website.
+            Or onclick injection may occur. To prevent this X-Frame-Options HTTP header is included in _headers file.</p></li>
+            <li><b>X :XSS-Protection </b> <p>By including this to header, it prevents the site if the page is being attacked.This instructs the browser to stop loading when detected Cross site scripting attacks.This controls that how much data is to be sent with each request originated from current website.
+            </p></li>
             <li>
               <b> X-Content-Type-Options : </b>
               <p>It will stop a browser from trying to MIME sniff the content type and force to decalred type.</p>
@@ -29,11 +29,7 @@
               <b>Content-Security-Policy :</b>
               <p>This header is effective measure to prevent the site from XSS attacks.It allows to control how to load on a page.</p>
             </li>
-            <li>
-              <b>X-XSS-Protection :</b>
-              <p>This instructs the browser to stop loading when detected Cross site scripting attacks.This controls that how much data is to be sent with each request originated from current website.
-              </p>
-            </li>
+            
           </ul>
           
       </div>
