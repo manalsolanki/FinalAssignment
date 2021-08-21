@@ -2,17 +2,53 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="./style.scss"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quality Assurance</title>
   </head>
   <body>
-      <div>
+      <div class="container">
           <h2>
             Quality Assurance
           </h2>
-          <p>
-              
+          <h3>What is quality assurance ?</h3>
+          <p>Quality Assurance consists of different procedure to ensure the quality of the product is provided to the customer
+            as per the requirement. It mainly focuses on making the application efficient and effective as per the coding standards.
           </p>
+          <h3>Measures Involved</h3>
+          <ul>
+            <li>
+                <h4>Version Control</h4>
+                <p>This website is developed using Github. Intially it was created on github and the repository was clone to the local computer.
+                  By doing this we can edit code install packages and check the code once build successfully it is pushed to github again.
+                  Easy to share and maintain the track of project..
+                </p>
+            </li>
+            <li>
+                <h4>Adhoc Testing</h4>
+                <ul>
+                  <li><b> <a href="https://validator.w3.org/">HTML Validator :</a></b> To check that website is valid and no errors in html.</li>
+                  <li><b> <a href="https://jigsaw.w3.org/css-validator/">CSS Validator :</a></b> To check that styling file is structured correctly.</li>
+                  <li><b> <a href="https://jshint.com/">Linters :</a></b>To ensure that there are no errors in my Js file. Also used console.log to make sure code is working as intended. </li>
+                  <li><b> <a href="">Light house Auditing :</a></b> Generated the report, almost got 100% for the website just for SEo it was about 89%.</li>
+                  <li><b> <a href="">aXe Auditing :</a></b> To check that styling file is structured correctly.</li>
+                </ul>
+            </li>
+            <li>
+              <h4>Unit Testing</h4>
+              <p>This type of testing is generally done by dividing the application in individual components. The main aim to check that each component work as indented.</p>
+              <p>Performed unit testing with the help of Mocha and Chai Library.In the test folder both the test cases are aviable.</p>
+            </li>
+            <li>
+              <h4>Website Deployment</h4>
+              <ul>
+              <li>Build using VITE Tool</li>
+              <li>Editor used Visual Studio Code</li>
+              <li>Build and Preview on local</li>
+              <li>Final Deployment on Netlify</li>
+            </ul>
+            </li>
+          </ul>
       </div>
   </body>
 </html>
