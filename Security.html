@@ -1,18 +1,41 @@
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="./style.scss"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Security</title>
+    <title>Quality Assurance</title>
   </head>
   <body>
-      <div>
+      <div class="container">
           <h2>
-              Security
+            Security Headers
           </h2>
-          <p>
-              
+          <p>Please visit<a href="https://securityheaders.com/?q=https%3A%2F%2Fapp.netlify.com%2Fsites%2Fgracious-hodgkin-baa84a%2Foverview&followRedirects=o"></a>here to check the security score for my webiste.
+            My website got A grade for the same.
           </p>
+          <h3>Measures Involved </h3>
+          <ul>
+            <li><b>X-Frame Options : </b> This type of attack generally means that the attacker can embed this website as iframe to a third party website.
+            Or onclick injection may occur. To prevent this X-Frame-Options HTTP header is included in _headers file.</li>
+            <li><b>X :XSS-Protection </b> By including this to header, it prevents the site if the page is being attacked.
+            </li>
+            <li>
+              <b> X-Content-Type-Options : </b>
+              <p>It will stop a browser from trying to MIME sniff the content type and force to decalred type.</p>
+            </li>
+            <li>
+              <b>Content-Security-Policy :</b>
+              <p>This header is effective measure to prevent the site from XSS attacks.It allows to control how to load on a page.</p>
+            </li>
+            <li>
+              <b>X-XSS-Protection :</b>
+              <p>This instructs the browser to stop loading when detected Cross site scripting attacks.This controls that how much data is to be sent with each request originated from current website.
+              </p>
+            </li>
+          </ul>
+          
       </div>
   </body>
 </html>
